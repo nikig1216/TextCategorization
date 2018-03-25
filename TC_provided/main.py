@@ -12,7 +12,7 @@ import re
 # import nltk
 from nltk.tokenize import RegexpTokenizer
 from nltk.tokenize import word_tokenize
-from nltk.corpus import stopwords
+# from nltk.corpus import stopwords
 # stopwords = nltk.download('stopwords')
 
 
@@ -92,7 +92,7 @@ else:
 # print trainFileList
 
 regexptoken = RegexpTokenizer(r'\w+')
-stop_words = set(stopwords.words('english'))
+# stop_words = set(stopwords.words('english'))
 
 ## Begin Training
 trainFile = open(trainFileList, 'r')
